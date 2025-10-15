@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Track Trains — SAIL Logistics</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="track">
+<header class="site-header">
+<div class="container">
+<a class="brand" href="index.html">SAIL Logistics</a>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="order.html">Place Order</a>
+<a href="track.html">Track Trains</a>
+<a href="orders.html">Orders</a>
+<a href="rakes.html">Rake Optimization</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>Track Trains</h1>
+<div class="card">
+<h3>Map (simulated)</h3>
+<div id="map" class="map-card">
+<!-- simple simulated map: markers placed by JS -->
+</div>
+<h3>Active Trains</h3>
+<table class="table">
+<thead><tr><th>Train</th><th>From → To</th><th>Current</th><th>ETA</th></tr></thead>
+<tbody id="trains_table"></tbody>
+</table>
+</div>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<small>© SAIL Logistics Frontend Demo</small>
+</div>
+</footer>
+
+
+<script src="data.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

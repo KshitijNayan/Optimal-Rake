@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Rake Optimization — SAIL Logistics</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="rakes">
+<header class="site-header">
+<div class="container">
+<a class="brand" href="index.html">SAIL Logistics</a>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="order.html">Place Order</a>
+<a href="track.html">Track Trains</a>
+<a href="orders.html">Orders</a>
+<a href="rakes.html">Rake Optimization</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>Rake Optimization</h1>
+<div class="card">
+<div class="form-row two-col">
+<div>
+<label>Select Date</label>
+<input type="date" id="opt_date" />
+</div>
+<div>
+<label>&nbsp;</label>
+<button id="genOpt" class="btn">Generate Optimization</button>
+</div>
+</div>
+<div id="optTimeline" class="timeline"></div>
+<div id="optMetrics" class="metrics"></div>
+</div>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<small>© SAIL Logistics Frontend Demo</small>
+</div>
+</footer>
+
+
+<script src="data.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

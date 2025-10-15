@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Orders — SAIL Logistics</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="orders">
+<header class="site-header">
+<div class="container">
+<a class="brand" href="index.html">SAIL Logistics</a>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="order.html">Place Order</a>
+<a href="track.html">Track Trains</a>
+<a href="orders.html">Orders</a>
+<a href="rakes.html">Rake Optimization</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>Orders Dashboard</h1>
+<div class="card">
+<div class="toolbar">
+<input id="filterInput" placeholder="Filter by station, commodity or status" />
+<select id="statusFilter"><option value="all">All Statuses</option><option>Pending</option><option>Allocated</option><option>Dispatched</option></select>
+</div>
+<table class="table" id="orders_table">
+<thead><tr><th>Order ID</th><th>Route</th><th>Commodity</th><th>Tonnage</th><th>Date</th><th>Status</th></tr></thead>
+<tbody></tbody>
+</table>
+</div>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<small>© SAIL Logistics Frontend Demo</small>
+</div>
+</footer>
+
+
+<script src="data.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

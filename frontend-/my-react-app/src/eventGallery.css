@@ -1,8 +1,0 @@
-.hover-zoom-img {
-  transition: transform 0.3s ease;
-  border-radius: 10px;
-}
-
-.hover-zoom-img:hover {
-  transform: scale(1.05); /* 5% zoom */
-}
