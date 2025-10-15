@@ -1,0 +1,84 @@
+<html lang="en" data-page="home">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SAIL Freight & Rake Management Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="SAIL Freight & Rake Management Portal — Streamlining freight operations and rake optimization." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-left">
+        <img src="Steel_Authority_of_India_logo.svg" alt="SAIL Logo" class="logo-small">
+        <a class="brand" href="index.html">SAIL Freight Portal</a>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="order.html">Place Order</a>
+        <a href="track.html">Track Trains</a>
+        <a href="orders.html">Orders Dashboard</a>
+        <a href="rakes.html">Rake Optimization</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <img src="Steel_Authority_of_India_logo.svg" alt="SAIL Logo" class="logo-large">
+          <h1>SAIL Freight & Rake Management Portal</h1>
+          <p>Streamlining freight operations and optimizing rake utilization across India’s rail network using intelligent logistics systems.</p>
+          <a class="btn" href="order.html">Place a New Order</a>
+        </div>
+        <div class="card mini-card">
+          <h3>Live Stats</h3>
+          <ul class="stats">
+            <li><strong id="stat1">—</strong><span>Active Trains</span></li>
+            <li><strong id="stat2">—</strong><span>Rakes in Use</span></li>
+            <li><strong id="stat3">—</strong><span>In-Transit Orders</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="quick-links" class="container features">
+      <h2>Quick Access</h2>
+      <div class="feature-grid">
+        <article>
+          <h3><a href="order.html">Place New Order</a></h3>
+          <p>Submit freight movement requests with source, destination, commodity, and tonnage details.</p>
+        </article>
+        <article>
+          <h3><a href="track.html">Track Current Trains</a></h3>
+          <p>Monitor live or simulated train locations with route and ETA data.</p>
+        </article>
+        <article>
+          <h3><a href="orders.html">Orders Dashboard</a></h3>
+          <p>View and manage all existing orders, statuses, and priorities.</p>
+        </article>
+        <article>
+          <h3><a href="rakes.html">Rake Optimization</a></h3>
+          <p>Visualize optimized rake allocations for any selected date.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container about">
+      <h2>About SAIL Logistics</h2>
+      <p>The Steel Authority of India Limited (SAIL) manages one of India’s largest freight and steel distribution networks. This portal serves as a centralized platform to plan, monitor, and optimize rake and train operations using data-driven methods.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© SAIL Logistics Frontend Demo 2025</small>
+    </div>
+  </footer>
+
+  <!-- Link data.js before scripts.js -->
+  <script src="data.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
