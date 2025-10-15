@@ -41,8 +41,8 @@ export default function Collaborators() {
 
     return (
         <>
-            <h2 className='mx-4' style={{ color: 'white', paddingTop: is7Wide ? '80px' : '50px', marginLeft: '5%', paddingLeft: '5%' }}>Collaborators</h2>
-            <hr style={{ color: 'white', width: isWide ? isExtraWide ? isExtraExtraWide ? '25%' : '30%' : '40%' : '52%', border: '1px solid gray', marginLeft: '5%' }} />
+            <h2 className='mx-4' style={{ color: 'black', paddingTop: is7Wide ? '130px' : '90px', marginLeft: '5%', paddingLeft: '5%' }}>Collaborators</h2>
+            <hr style={{ color: 'black', width: isWide ? isExtraWide ? isExtraExtraWide ? '25%' : '30%' : '40%' : '52%', border: '1px solid gray', marginLeft: '5%' }} />
             <br></br>
         </>
     )
