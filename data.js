@@ -13,10 +13,10 @@ trains: [
 { id: "TR004", route: "Bokaro → Haldia", position: "Asansol", eta: "3h 10m" }
 ],
 rakes: [
-{ id: "R1", start: 0, length: 3 },
-{ id: "R2", start: 2, length: 4 },
-{ id: "R3", start: 5, length: 2 },
-{ id: "R4", start: 7, length: 3 }
+{ departs_at: "8/10/25 12:30", id: "R1", length: 3, source: "Bhilai", destination: "Durgapur" },
+{ departs_at: "8/10/25 20:45", id: "R2", length: 4, source: "Rourkela", destination: "Bokaro" },
+{ departs_at: "10/10/25 3:30", id: "R3", length: 2, source: "Bokaro", destination: "Rourkela" },
+{ departs_at: "11/10/25 21:00", id: "R4", length: 3, source: "Rourkela", destination: "Paradip" }
 ]
 };
 

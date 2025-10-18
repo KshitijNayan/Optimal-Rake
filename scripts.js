@@ -66,7 +66,7 @@ timeline.innerHTML = '';
 rakes.forEach(r=>{
 const div = document.createElement('div');
 div.className='rake';
-div.innerText = `${r.id} • start ${r.start} • len ${r.length}`;
+div.innerText = `${r.id} • length ${r.length} • from ${r.destination} • to ${r.source} • departing at ${r.departs_at}`;
 timeline.appendChild(div);
 });
 }

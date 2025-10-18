@@ -265,3 +265,9 @@ textarea {
   width: auto;
   margin-bottom: 1rem;
 }
+
+.train-map {
+  height: 200px;
+  width: auto;
+  margin: 1rem;
+}
